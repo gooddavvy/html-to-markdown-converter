@@ -6,7 +6,7 @@ It's nice! Wanna try it out? The function name is `htmlToMarkdown`. Just add the
 <script src="https://HTML-to-Markdown-Converter.goodnessdavid.repl.co/index.js"></script>
 ```
 
-And there you have it! You can do something like this:
+And there you have it! You can now do something like this:
 ```javascript
 const htmlContent = document.getElementById('html-content');
 const markdownOutput = document.getElementById('markdown-output');

@@ -15,3 +15,6 @@ markdownOutput.innerHTML = `<pre><code>${htmlToMarkdown(htmlContent)}</pre></cod
 ```
 
 I hope you like it, and again, me and ChatGPT worked on it together!
+
+BTW take a look at this:
+![image](https://storage.googleapis.com/replit/images/1676577863905_0cb3aa87fafe10f64eb3ba5e6a4ff50e.png)

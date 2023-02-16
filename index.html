@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML to Markdown</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="html-content">
+		<h1>Hello, World!</h1>
+        <p>Hello world</p>
+        <pre><code>
+            // just a test
+            var x = 5;
+        </code></pre>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <table>
+            <tr>
+                <td>Row 1, Column 1</td>
+                <td>Row 1, Column 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Column 1</td>
+                <td>Row 2, Column 2</td>
+            </tr>
+            <tr>
+                <td>Row 3, Column 1</td>
+                <td>Row 3, Column 2</td>
+            </tr>
+        </table>        
+	</div>
+    <h1>Markdown Format is Below!</h1>
+	<div id="markdown-output"></div>
+
+    <script src="index.js"></script>
+    <script src="test.js"></script>
+</body>
+</html>

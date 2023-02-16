@@ -1,1 +1,17 @@
-# html-to-markdown-converter
+ChatGPT gets a bonus for helping me make this library.
+
+It's nice! Wanna try it out? The function name is `htmlToMarkdown`. Just add the following code to your HTML:
+
+```html
+<script src="https://HTML-to-Markdown-Converter.goodnessdavid.repl.co/index.js"></script>
+```
+
+And there you have it! You can do something like this:
+```javascript
+const htmlContent = document.getElementById('html-content');
+const markdownOutput = document.getElementById('markdown-output');
+
+markdownOutput.innerHTML = `<pre><code>${htmlToMarkdown(htmlContent)}</pre></code>`
+```
+
+I hope you like it, and again, me and ChatGPT worked on it together!
